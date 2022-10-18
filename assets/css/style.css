@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 60px;
+}
+
+#carouselExampleFade {
+    margin-top: 26px;
+}
+
+nav img {
+    filter: drop-shadow(2px 2px 5px rgba(34, 34, 34, 0.486));
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    /* background-color: darkkhaki; */
+    padding: 10px;
+    margin-top: 26px;
+    color: #454343;
+    line-height: 30px;
+}
+
+#data {
+    text-align: right;
+    font-size: 1em;
+    color: #A9A9A9;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+#icon-logo i {
+    font-size: 50px;
+}
+
+.bi-filetype-html {
+    color: #FF4500;
+}
+
+.bi-filetype-css {
+    color: #000080;
+}
+
+.bi-filetype-js {
+    color: #FFD700;
+}
+
+#icon-logo, #img-logo h4 {
+    text-align: center;
+}
+
+#icon-logo p {
+    text-align: justify;
+}
+
+section {
+    padding: 50px;
+}
+
+section.sobre {
+    width: 100%;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+section.sobre h2, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+}
+
+section.senac {
+    border-bottom: 1px solid #DCDCDC;
+}
+
+section.senac p {
+    text-align: center;
+    color: #A9A9A9;
+}
+
+section.contato {
+    margin: auto;
+}
+
+section.contato label {
+    font-weight: bolder;
+}
+
+section.contato input, textarea {
+    width: 100%;
+    border: 1px solid #A9A9A9;
+    outline: 0;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+section.contato textarea {
+    height: 150px;
+}
+
+section.contato button {
+    font-weight: bold;
+    padding: 7px 40px;
+    background-color: #4F4F4F;
+    color: #fff;
+    margin: 20px 0;
+    width: 200px;
+    border-radius: 5px;
+}
+
+section.contato button#reset {
+    background-color: #fff;
+    color: #363636;
+    border: 1px solid #A9A9A9;
+    margin-left: 10px;
+}
+
+
+
+footer {
+    background-color: #363636;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer h4 {
+    padding: 0 0 10px 0;
+}
+
+footer h5 {
+    margin: 35px 0 20px 0;
+}
+
+footer i {
+    font-size: 20px;
+    padding: 0 20px 30px 0;
+}

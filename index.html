@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="shortcut icon" href="./assets/img/icon_projeto_js.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+        <script src="./assets/js/bloqueio.js"></script>
+    <title>JavaScript Project</title>
+</head>
+
+<body>
+    
+    <header class="shadow p-1 bg-light rounded">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-2">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/logo_projeto_js.png" alt="Logo JavaScript Project">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#senac">Senac</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/img/javascript.jpg" class="d-block w-100" alt="Imagem JavaScript">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/html5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/css3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <main>
+        <p id="data"></p>
+        <h1>JavaScript Project</h1>
+
+        <div class="container" id="icon-logo">
+            <div class="row justify-content-center gx-5 mt-5">
+                <div class="col-md-4 mt-5">
+                    <i class="bi bi-filetype-html"></i>
+                    <h4 class="mt-3 mb-3">Estrutura do Site</h4>
+                    <p>O HTML 5 é responsável por criar a estrutura do Site, com as tags semânticas para facilitar a
+                        leitura do código HTML.</p>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <i class="bi bi-filetype-css"></i>
+                    <h4 class="mt-3 mb-3">Estilização do Site</h4>
+                    <p>O CSS 3 atua na estilização da página, deixando-a mais sofisticada e bonita, criando os estilos
+                        em cascata, por meio de seletores.</p>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <i class="bi bi-filetype-js"></i>
+                    <h4 class="mt-3 mb-3">Dinamicidade do Site</h4>
+                    <p id="sobre"></p>
+                    <p class="mb-5 pb-5">Para gerar dinamicidade a página estática, construída em HTML, usa-se o
+                        JavaScript, que é responsável por dar interatividade a página.</p>
+                </div>
+            </div>
+        </div>
+        
+
+        <section class="sobre">
+            
+            <h2>Sobre</h2>
+            <p>O curso de JavaScript, foi ministrado, em nove dias, pelo <strong>Prof. Heuryk Wylk</strong>, no Senac
+                Paulista e que teve uma carga horária total de 36h.</p>
+            <p>No decorrer das aulas, diversos comandos do JavaScript foram apresentados e implementados no HTML, para
+                gerar dinamicidade as páginas desenvolvidas.</p>
+            <p>E com base nestas experiências, o projeto, no <strong>Curso de JavaScript</strong>, tem a finalidade de
+                por em prática as habilidades adquiridas ao longo das aulas, para a conclusão do curso.</p>
+                <p id="senac"></p>
+        </section>
+
+        <section class="senac">
+            
+            <h2>Senac Paulista</h2>
+            <p>Localização</p>
+            <div class="contain">
+                <div class="row justify-content-center mt-5">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.496374006865!2d-34.892419685221064!3d-7.9475464942754686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1643d37c9b13%3A0x6f412fcc8907019e!2sSENAC%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1666069829877!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <p id="contato"></p>
+        </section>
+
+        <section class="contato">
+            
+            <h2>Contato </h2>
+
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <form name="form1" action="https://formsubmit.co/3b36cafe17909d2547e6b939407ed7e0" method="POST">
+
+                            <div class="res"></div>
+                            <label for="name">Nome completo:</label>
+                            <input type="text" id="inputNome" name="name" placeholder="Informe seu nome" maxlength="50" minlength="3">
+                            <span></span>
+
+                            <label for="email">Email:</label>
+                            <input type="text" name="inputEmail" id="email" placeholder="Exemplo: usuario@dominio.com" maxlength="50">
+                            <span></span>
+
+                            <label for="tel">Telefone:</label>
+                            <input type="tel" name="inputTel" id="tel" placeholder="Exemplo: 8100000000" maxlength="11"><span></span>
+
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea name="mensagem" id="textAreaMensagem" cols="30" rows="10"></textarea>
+                            <span></span>
+
+                            <div class="row justify-content-center">
+                                    <button type="submit" id="enviardados" onclick="validar()">Enviar</button>
+                                    <button type="reset" id="reset">Limpar</button>
+                            </div>
+
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5501/confirmacao.html">
+                            <!-- com essas configurações é possível direcionar para outro página desejada -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center gy-5">
+                <div class="col-sm-6 col-md-7 col-lg-8">
+                    <h3>JavaScript Project</h3>
+                    <p>Projeto feito por: Zen Brito - Graduando em Análise e Desenvolvimento de Sistemas</p>
+                    <h5>Medias:</h5>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-github"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4">
+                    <h4>Menu</h4>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#senac">Senac</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./assets/js/data.js"></script>
+    <script src="./assets/js/validacao.js"></script>
+</body>
+
+</html>
